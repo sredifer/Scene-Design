@@ -6,7 +6,7 @@ using static UnityEditor.PlayerSettings;
 public class moveCar : MonoBehaviour
 {
     private Vector3 pos;
-    [SerializeField] private float speed = 1f;
+    [SerializeField] private float speed = 3f;
 
     // Start is called before the first frame update
     void Start()
