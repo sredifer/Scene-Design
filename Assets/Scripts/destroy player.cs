@@ -16,14 +16,6 @@ public class destroyplayer : MonoBehaviour
         
     }
 
-    /*private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.collider.CompareTag("Car"))
-        {
-            Destroy(this.gameObject);
-        }
-        
-    }*/
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Car"))
